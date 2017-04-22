@@ -6,9 +6,10 @@ public class HelloGit {
 		
 		String names[] = {"A1","A2","A3","A4","B1","B2"};
 		
-		//print
-		for(int i=0; i<names.length; i++){
-			System.out.println("Hello "+names[i]);
+
+		//print names
+		for(String name : names){
+			System.out.println("Hello "+names);
 			System.out.println("Test of Git");
 		}
 	}
